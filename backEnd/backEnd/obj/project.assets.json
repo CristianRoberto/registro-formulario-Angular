@@ -2212,11 +2212,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dell\\Desktop\\empresa\\desarrollos software\\Prueba netCore-SqlServer-Angular\\backEnd\\backEnd\\backEnd.csproj",
+      "projectUniqueName": "C:\\Users\\Dell\\Desktop\\empresa\\desarrollos software\\Prueba netCore-SqlServer-Angular\\fronEnd\\backEnd\\backEnd\\backEnd.csproj",
       "projectName": "backEnd",
-      "projectPath": "C:\\Users\\Dell\\Desktop\\empresa\\desarrollos software\\Prueba netCore-SqlServer-Angular\\backEnd\\backEnd\\backEnd.csproj",
+      "projectPath": "C:\\Users\\Dell\\Desktop\\empresa\\desarrollos software\\Prueba netCore-SqlServer-Angular\\fronEnd\\backEnd\\backEnd\\backEnd.csproj",
       "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dell\\Desktop\\empresa\\desarrollos software\\Prueba netCore-SqlServer-Angular\\backEnd\\backEnd\\obj\\",
+      "outputPath": "C:\\Users\\Dell\\Desktop\\empresa\\desarrollos software\\Prueba netCore-SqlServer-Angular\\fronEnd\\backEnd\\backEnd\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

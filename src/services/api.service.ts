@@ -37,71 +37,17 @@ export class ApiService {
       })
     );
   }
-  }
+
+    // HttpClient API delete() method => Delete 
   
 
-
-
-/*
-
-  // HttpClient API get() method => Fetch students list
-  getStudents(): Observable<Student> {
-    return this.http.get<Student>(this.apiURL + '/students')
-    .pipe(
-      retry(1),
-      catchError(this.handleError)
-    )
+    deleteRequerimiento(id: any): Observable<void> {
+    const url = `${this.urlApi}/Eliminar/${id}`; // Cambia la URL según tu API
+    return this.http.delete<void>(url);
   }
 
-  // HttpClient API get() method => Fetch Student
-  getStudent(id: string): Observable<Student> {
-    return this.http.get<Student>(this.apiURL + '/students/' + id)
-    .pipe(
-      retry(1),
-      catchError(this.handleError)
-    )
-  }  
-
-  // HttpClient API post() method => Create Student
-  createStudent(_student: Student): Observable<Student> {
-    return this.http.post<Student>(this.apiURL + '/students', JSON.stringify(_student), this.httpOptions)
-    .pipe(
-      retry(1),
-      catchError(this.handleError)
-    )
-  }  
-
-  // HttpClient API put() method => Update Student
-  updateStudent(id: string, _student:Student): Observable<Student> {
-    return this.http.put<Student>(this.apiURL + '/students/' + id, JSON.stringify(_student), this.httpOptions)
-    .pipe(
-      retry(1),
-      catchError(this.handleError)
-    )
+  actualizarRequerimiento(id: number, requerimiento: Requerimiento): Observable<any> {
+    const url = `${this.urlApi}/Editar/`; // Ajusta la URL según tu API
+    return this.http.put(url, requerimiento);
   }
-
-  // HttpClient API delete() method => Delete Student
-  deleteStudent(id: string){
-    return this.http.delete<Student>(this.apiURL + '/students/' + id, this.httpOptions)
-    .pipe(
-      retry(1),
-      catchError(this.handleError)
-    )
-  }
-
-  // Error handling 
-  handleError(error: { error: { message: string; }; status: any; message: any; }) {
-     let errorMessage = '';
-     if(error.error instanceof ErrorEvent) {
-       // Get client-side error
-       errorMessage = error.error.message;
-     } else {
-       // Get server-side error
-       errorMessage = `Error Code: ${error.status}\nMessage: ${error.message}`;
-     }
-     window.alert(errorMessage);
-     return throwError(errorMessage);
-  }
-
 }
-*/

@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using backEnd.Models;
@@ -96,7 +96,7 @@ namespace backEnd.Controllers
 
                 _dbcontext.Requerimientos.Update(requerimiento);
                 _dbcontext.SaveChanges();
-                return StatusCode(StatusCodes.Status200OK, new { mensaje = "ok" });
+                return StatusCode(StatusCodes.Status200OK, new { mensaje = "ok Actualizado " });
             }
             catch (Exception ex)
             {
@@ -126,7 +126,7 @@ namespace backEnd.Controllers
                 _dbcontext.Requerimientos.Remove(requerimiento);
                 _dbcontext.SaveChanges();
 
-                return StatusCode(StatusCodes.Status200OK, new { mensaje = "ok" });
+                return StatusCode(StatusCodes.Status200OK, new { mensaje = "ok Eliminado" });
             }
             catch (Exception ex)
             {
@@ -135,8 +135,6 @@ namespace backEnd.Controllers
 
 
         }
-
-
 
     }
 }

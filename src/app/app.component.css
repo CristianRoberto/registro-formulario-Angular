@@ -1,0 +1,26 @@
+/* Estilos para el mensaje flotante */
+.floating-message {
+    position: fixed;
+    top: 50%; /* Posiciona en la mitad vertical de la pantalla */
+    left: 50%; /* Posiciona en la mitad horizontal de la pantalla */
+    transform: translate(-50%, -50%); /* Centra el contenido en ambas direcciones */
+    background-color: rgba(76, 175, 80, 0.9); /* Color de fondo del mensaje (verde) con opacidad */
+    color: #ffffff; /* Color del texto */
+    padding: 10px 20px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra suave */
+    z-index: 9999; /* Asegura que el mensaje esté por encima de otros elementos */
+  }
+  
+
+  .form-group {
+    text-align: center; /* Centrar el contenido horizontalmente */
+  }
+  
+  .form-group label {
+    display: block; /* Cambiar a block para ocupar todo el ancho y poder centrar */
+    text-align: center; /* Centrar el texto dentro del label */
+    margin-bottom: 5px; /* Agregar un pequeño margen inferior para separar los labels */
+  }
+  
+  

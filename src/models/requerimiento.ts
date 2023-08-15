@@ -2,14 +2,14 @@ import { FormGroup } from "@angular/forms";
 
 
 export class Requerimiento {
-    id: number | undefined;
-    cantidad_bultos: number | undefined;
-    cantidad_contenedores_unidades: number | undefined;
-    tipo_carga: string | undefined;
-    tipo_contenedor: string | undefined;
-    deposito_devolucion_registro_vacio: string | undefined;
-    dimensiones: string | undefined;
-    direccion_bodega: string | undefined;
+    id: number =0;
+    cantidad_bultos: number =0;
+    cantidad_contenedores_unidades: number =0;
+    tipo_carga: string ="";
+    tipo_contenedor: string =""; 
+    deposito_devolucion_registro_vacio: string ="";
+    dimensiones: string ="";
+    direccion_bodega: string ="";
 
     constructor(
         loginForm: FormGroup

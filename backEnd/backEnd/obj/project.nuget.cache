@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3WhKZDYtlyCuNErH3bfpCZ7Ecgzy62Y2GKdSk9K2yskHy7fX/IGPkSYtIUBDeTIR74IjT4h9ZeSk+ZHt0LK4JA==",
+  "dgSpecHash": "xbcDXe9goAMwHo8gOBGOBcGa+Z/XC9uHjRenx+T+vTOEAb8sS+eoZz9dhverM8O9hrwid4juLfwxUAIRe2SXgw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Dell\\Desktop\\empresa\\desarrollos software\\Prueba netCore-SqlServer-Angular\\backEnd\\backEnd\\backEnd.csproj",
+  "projectFilePath": "C:\\Users\\Dell\\Desktop\\empresa\\desarrollos software\\Prueba netCore-SqlServer-Angular\\fronEnd\\backEnd\\backEnd\\backEnd.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dell\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

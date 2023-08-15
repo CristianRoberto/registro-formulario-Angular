@@ -15,7 +15,6 @@ builder.Services.AddSwaggerGen();
 //Configuracion de nuestro contxto con la cadena de conexionSQl para utilizarlo dentro de los controladores
 builder.Services.AddDbContext<RequerimientoContext>(opt => opt.UseSqlServer(builder.Configuration.GetConnectionString("cadenaSQL")));
 
-builder.Services.AddDbContext<salioContext>(opt => opt.UseSqlServer(builder.Configuration.GetConnectionString("cadenaSalio")));
 
 
 
