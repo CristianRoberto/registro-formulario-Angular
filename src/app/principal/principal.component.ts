@@ -3,14 +3,13 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { Requerimiento } from 'src/models/requerimiento';
 import { ApiService } from 'src/services/api.service';
 import { timer } from 'rxjs';
-
-
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'app-principal',
+  templateUrl: './principal.component.html',
+  styleUrls: ['./principal.component.css']
 })
-export class AppComponent {
+export class PrincipalComponent {
+
 
   eliminacionExitosa: boolean = false;
   idEliminado: number | null = null; // Inicialmente no hay ID eliminado
@@ -159,6 +158,7 @@ export class AppComponent {
 
 
   
+
 
 
 
